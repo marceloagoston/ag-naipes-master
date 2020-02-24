@@ -48,7 +48,29 @@ body{
 	display: flex;
 	justify-content: space-around;
 }
+.ag-butts{
+	display:flex;
+	justify-content: space-around;
+	width: 70%;
+	margin:auto;
+}
 /*clases triviales*/
 .ag-pdt2{
 	padding-top: 2%;
+}
+.ag-bot{
+	width: 30%;
+}
+@media screen and (max-width: 800px) {
+		.ag-butts{
+	flex-direction: column;
+	margin:auto;
+	}
+	.ag-bot{
+	width: 70%;
+	margin: auto;
+	}
+	.ag-mgb5{
+		margin-bottom: 5%;
+	}
 }
