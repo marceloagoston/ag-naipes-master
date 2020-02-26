@@ -73,4 +73,8 @@ body{
 	.ag-mgb5{
 		margin-bottom: 5%;
 	}
+	/*override bootstrap*/
+	.h1, h1 {
+    font-size: 2rem;
+	}
 }
