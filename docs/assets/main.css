@@ -15,9 +15,9 @@ body::before {
     will-change: transform;
     z-index: -1;
 }
-body{
+/* body{
 
-}
+} */
 .h3{
 	color: rgba(192,192,192,1);
 }
@@ -62,7 +62,7 @@ body{
 	width: 30%;
 }
 @media screen and (max-width: 800px) {
-		.ag-butts{
+	.ag-butts{
 	flex-direction: column;
 	margin:auto;
 	}
